@@ -5,12 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Recipe Website</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
 </head>
 <body>
-    <header>
+    <!-- <header>
         <h1>Welcome to Simple Recipes</h1>
         
-    </header>
+    </header> -->
+    <header class="header">
+        <div class="nav_btn">
+            <div class="logo"><img src="images/weq.jpg" style="height: auto; width: 50px;"></div>
+    <nav>
+     <a href="#">Home</a>
+     <a class="active" href="#">Get started</a>
+     <a href="#">About</a>
+     <a href="#">Forum</a>
+    </nav>
+
+    <div class="search-bar">
+     <i class="fas fa-search"></i>
+     <input placeholder="Try 'Lotus GT 430'" type="text"/>
+    </div>
+        </div>
+    <div class="btn">
+        <a class="login-btn" href="#">Signup</a>
+      <a class="login-btn" href="#">Login</a>
+    </div>
+    
+   </header>
 
     <section class="featured-recipes">
         <h2>Featured Recipes</h2>

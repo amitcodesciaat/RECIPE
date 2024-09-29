@@ -5,12 +5,74 @@ body {
     background-color: #f5f5f5;
 }
 
-header {
-    /* background-color: #333; */
-    color: rgb(18, 12, 12);
-    padding: 1rem;
-    text-align: center;
+/* header nav css :start */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  10px 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 94%;
+    margin: auto;
 }
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.header nav {
+    display: flex;
+    align-items: center;
+}
+.nav_btn {
+    display: flex;
+    gap: 15px;
+}
+.header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+.header nav a.active {
+    font-weight: 700;
+}
+.header .search-bar {
+    position: relative;
+    margin-left: 20px;
+}
+.header .search-bar input {
+    padding: 10px 40px 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.search-bar i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ccc;
+}
+.login-btn {
+    background-color: #d4ff00;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+
+
+
+/* header nav css end */
+/* header { */
+    /* background-color: #333; */
+    /* color: rgb(18, 12, 12);
+    padding: 1rem;
+    text-align: center; */
+/* } */
 
 nav ul {
     list-style-type: none;
@@ -31,7 +93,7 @@ a{
     text-decoration: none;
 }
 .featured-recipes {
-    padding: 2rem;
+    padding: 3rem;
 }
 
 .recipe_main_card{
